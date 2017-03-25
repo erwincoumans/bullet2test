@@ -8,7 +8,7 @@ endif()
 
 add_subdirectory(${BULLET_DIRECTORY} bin)
 
-project (Tutorial)
+project (App_Tutorial)
 
 INCLUDE_DIRECTORIES(
 	${BULLET_PHYSICS_SOURCE_DIR}/src
@@ -18,5 +18,5 @@ LINK_LIBRARIES(
 	LinearMath
 )
 
-add_executable(Tutorial main.cpp)
+add_executable(App_Tutorial main.cpp)
 
